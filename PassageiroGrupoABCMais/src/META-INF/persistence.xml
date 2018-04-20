@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<persistence-unit name="Login">
+
+	<provider>org.hibernate.ejb.HibernatePersistence</provider>
+	<class>br.com.pgam.model.Login</class>
+
+	<properties>
+		<property name="javax.persistence.jdbc.driver"
+			value="com.mysql.jdbc.Driver" />
+		<property name="javax.persistence.jdbc.url"
+			value="jdbc:mysql://10.9.0.16/test" />
+		<property name="javax.persistence.jdbc.user" value="root" />
+		<property name="javax.persistence.jdbc.password"
+			value="abctur" />
+
+		<property name="hibernate.dialect"
+			value="org.hibernate.dialect.MySQL5InnoDBDialect" />
+		<property name="hibernate.show_sql" value="true" />
+		<property name="hibernate.format_sql" value="true" />
+		<property name="hibernate.hbm2ddl.auto" value="update" />
+	</properties>
+</persistence-unit>

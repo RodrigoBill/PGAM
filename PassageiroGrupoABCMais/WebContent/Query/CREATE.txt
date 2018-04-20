@@ -1,0 +1,10 @@
+create table LOGIN (
+        ID_USUARIO BIGINT NOT NULL AUTO_INCREMENT,
+        USUARIO VARCHAR(255),
+        SENHA VARCHAR(255),
+        EMAIL VARCHAR(255),
+        PERFIL VARCHAR(255),
+        primary key (ID_USUARIO)
+    );
+    
+    
